@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ a{
+    text-decoration: none;
+ }
+
+  section {
+    padding-top: 100px;
+  }
+
+ .container{
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;}
+
+/* video */
+.video_header .video_item iframe{
+    width: 1170px;
+    height: 500px;
+    opacity: 0;
+    
+}
+
+.video_header  {
+    text-align: center;
+    align-items: center;
+}
+
+.video_item{
+    background-image: url(./banner3.jpg);
+    background-size: cover;
+    /* background-size: 1110px 500px; */
+    
+}
+
+.video_header .video_item:hover iframe{
+    opacity: 1;
+    background-color: rgb(31, 29, 29)
+    ;
+    
+}
+
+/* .video_header .container:hover .video_item{
+    color: black;
+}
+      */
+    
+
+
+/* .video_item iframe{
+    height: 600px;
+    width: 1170px;
+} */
+
+.video_header .video_item:hover a{
+    opacity: 0;
+}
+
+
+
+
+
+.video-play-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+    color: #ff6600;
+    border: transparent;
+    background: #fff;
+  transform: translateY(300%);
+}
+
+
+
+ /* latest posts */
+ .title-subhny {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff6600;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+.title-w3l {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;}
+
+.latest_posts .row_lp img{
+    width: 100%;
+}
+
+.radius_img_lp{
+    border-radius: 6px;
+    }
+
+
+.content_lp .post-pos{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+
+
+.latest_posts .row_lp a.receipe {
+    background: #ff6600;
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+    letter-spacing: .05em;
+}
+
+.latest_posts .content_bot .header_bot{
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: black;
+    /* margin-top: px; */
+    margin-bottom: 15px;
+}
+
+.latest_posts .footer_bot img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    /* overflow: hidden; */
+    border-radius: 50%;
+}
+
+.latest_posts .footer_bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.latest_posts .footer_bot .footer_info{
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+
+.latest_posts .row_lp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.latest_posts .row_lp .content_lp{
+    width: 33.3333%;
+    margin-top: 3rem;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.latest_posts .content_top .post-pos i{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+    letter-spacing: .02em;
+}
+
+.latest_posts .content_top .post-pos span{
+    color: #fff;
+    /* margin-left: 10px; */
+    font-size: 15px;
+    letter-spacing: .02em;
+    font-weight: 400;
+}
+
+.latest_posts .footer_info a{
+    font-weight: 700;
+    color: black;
+    letter-spacing: .02em;
+}
+
+.latest_posts .footer_bot .read{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color:black;
+    opacity: .9;
+}
+
+.latest_posts .footer_bot :hover .read{
+    color: #ff6600;
+}
+
+.latest_posts{
+    background: #f7f7f7;
+
+
+    padding-bottom: 3rem !important;
+
+
+    padding-top: 3rem !important;
+}
+
+/* <!-- Testimonials --> */
+
+
+
+
